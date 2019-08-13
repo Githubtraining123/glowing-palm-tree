@@ -31,6 +31,11 @@ public class ignoretest {
 	System.out.println("This is test4");
 	}
 	
+	@Test
+	public void f5()
+	{
+	System.out.println("This is test5");
+	}
 
 
 }
