@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test thread-count="5" name="Test1(failed)">
+    <groups>
+      <run>
+        <include name="Allclasstests"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestNG.Dependsmodel">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="f2"/>
+          <include name="f3"/>
+          <include name="f1"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- TestNG.Dependsmodel -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
